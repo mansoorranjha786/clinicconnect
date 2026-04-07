@@ -1,0 +1,166 @@
+{
+  "info": {
+    "_postman_id": "4b278211-550c-4f43-aed7-de41b6d9d5fe",
+    "name": "ClinicConnect API",
+    "description": "API for Pediatric Immunization Eligibility Engine (ClinicConnect)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Reports",
+      "item": [
+        {
+          "name": "Daily Clinic Action Report",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/v1/immunization/daily-report",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "immunization",
+                "daily-report"
+              ]
+            },
+            "description": "Generates a full report of all patients with immunization gaps, sorted by urgency."
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Patients",
+      "item": [
+        {
+          "name": "List All Patients",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/v1/immunization/patients",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "immunization",
+                "patients"
+              ]
+            },
+            "description": "Retrieves a list of all pediatric patients in the system."
+          },
+          "response": []
+        },
+        {
+          "name": "View Patient Gaps",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/v1/immunization/patient/:patientId/gaps",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "immunization",
+                "patient",
+                ":patientId",
+                "gaps"
+              ],
+              "variable": [
+                {
+                  "key": "patientId",
+                  "value": "PAT-001",
+                  "description": "The unique ID of the patient."
+                }
+              ]
+            },
+            "description": "Retrieves specific immunization gaps and catch-up instructions for a single patient."
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "System",
+      "item": [
+        {
+          "name": "Current Immunization Schedule",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/v1/immunization/schedule",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "immunization",
+                "schedule"
+              ]
+            },
+            "description": "Returns the current vaccine requirements being used by the engine (fetched from CDC or fallback)."
+          },
+          "response": []
+        },
+        {
+          "name": "Health Check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/v1/immunization/health",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "immunization",
+                "health"
+              ]
+            },
+            "description": "Checks the system status, including availability of the remote CDC API."
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8080",
+      "type": "string"
+    }
+  ]
+}

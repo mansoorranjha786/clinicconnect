@@ -1,0 +1,892 @@
+[
+  {
+    "patientId": "PAT001",
+    "firstName": "Emma",
+    "lastName": "Rodriguez",
+    "dateOfBirth": "2023-06-15",
+    "guardianName": "Maria Rodriguez",
+    "guardianPhone": "555-0101",
+    "insuranceId": "INS-2023-001",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2023-06-15",
+        "lotNumber": "LOT123",
+        "administeredBy": "Dr. Chen"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT002",
+    "firstName": "Liam",
+    "lastName": "Thompson",
+    "dateOfBirth": "2022-03-10",
+    "guardianName": "Sarah Thompson",
+    "guardianPhone": "555-0102",
+    "insuranceId": "INS-2022-002",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2022-03-10",
+        "lotNumber": "LOT124",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 1,
+        "dateAdministered": "2022-05-15",
+        "lotNumber": "LOT125",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 2,
+        "dateAdministered": "2022-07-18",
+        "lotNumber": "LOT126",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT003",
+    "firstName": "Sophia",
+    "lastName": "Kim",
+    "dateOfBirth": "2020-11-22",
+    "guardianName": "Jane Kim",
+    "guardianPhone": "555-0103",
+    "insuranceId": "INS-2020-003",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2020-11-22",
+        "lotNumber": "LOT127",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2021-01-25",
+        "lotNumber": "LOT128",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2021-11-25",
+        "lotNumber": "LOT129",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT004",
+    "firstName": "Noah",
+    "lastName": "Williams",
+    "dateOfBirth": "2019-07-04",
+    "guardianName": "James Williams",
+    "guardianPhone": "555-0104",
+    "insuranceId": "INS-2019-004",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2019-07-04",
+        "lotNumber": "LOT130",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2019-09-06",
+        "lotNumber": "LOT131",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 3,
+        "dateAdministered": "2020-01-08",
+        "lotNumber": "LOT132",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2020-07-10",
+        "lotNumber": "LOT133",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 1,
+        "dateAdministered": "2019-09-06",
+        "lotNumber": "LOT134",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 2,
+        "dateAdministered": "2019-11-08",
+        "lotNumber": "LOT135",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 3,
+        "dateAdministered": "2020-01-10",
+        "lotNumber": "LOT136",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT005",
+    "firstName": "Olivia",
+    "lastName": "Johnson",
+    "dateOfBirth": "2021-01-30",
+    "guardianName": "Tom Johnson",
+    "guardianPhone": "555-0105",
+    "insuranceId": "INS-2021-005",
+    "vaccinationHistory": []
+  },
+  {
+    "patientId": "PAT006",
+    "firstName": "Ethan",
+    "lastName": "Martinez",
+    "dateOfBirth": "2018-05-14",
+    "guardianName": "Rosa Martinez",
+    "guardianPhone": "555-0106",
+    "insuranceId": "INS-2018-006",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2018-05-14",
+        "lotNumber": "LOT137",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2018-07-16",
+        "lotNumber": "LOT138",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 3,
+        "dateAdministered": "2018-11-18",
+        "lotNumber": "LOT139",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2019-05-20",
+        "lotNumber": "LOT140",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "Varicella",
+        "doseNumber": 1,
+        "dateAdministered": "2019-05-20",
+        "lotNumber": "LOT141",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT007",
+    "firstName": "Ava",
+    "lastName": "Davis",
+    "dateOfBirth": "2015-09-08",
+    "guardianName": "Mike Davis",
+    "guardianPhone": "555-0107",
+    "insuranceId": "INS-2015-007",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2015-09-08",
+        "lotNumber": "LOT142",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2015-11-10",
+        "lotNumber": "LOT143",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 3,
+        "dateAdministered": "2016-03-12",
+        "lotNumber": "LOT144",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2016-09-14",
+        "lotNumber": "LOT145",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 2,
+        "dateAdministered": "2020-08-18",
+        "lotNumber": "LOT146",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 1,
+        "dateAdministered": "2015-11-10",
+        "lotNumber": "LOT147",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 2,
+        "dateAdministered": "2016-01-12",
+        "lotNumber": "LOT148",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 3,
+        "dateAdministered": "2016-03-14",
+        "lotNumber": "LOT149",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 4,
+        "dateAdministered": "2016-09-16",
+        "lotNumber": "LOT150",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT008",
+    "firstName": "Mason",
+    "lastName": "Brown",
+    "dateOfBirth": "2007-02-19",
+    "guardianName": "Linda Brown",
+    "guardianPhone": "555-0108",
+    "insuranceId": "INS-2007-008",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2007-02-19",
+        "lotNumber": "LOT151",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2007-04-21",
+        "lotNumber": "LOT152",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 3,
+        "dateAdministered": "2007-08-23",
+        "lotNumber": "LOT153",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2008-02-25",
+        "lotNumber": "LOT154",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 2,
+        "dateAdministered": "2012-01-29",
+        "lotNumber": "LOT155",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "Varicella",
+        "doseNumber": 1,
+        "dateAdministered": "2008-02-25",
+        "lotNumber": "LOT156",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "Varicella",
+        "doseNumber": 2,
+        "dateAdministered": "2012-01-29",
+        "lotNumber": "LOT157",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT009",
+    "firstName": "Isabella",
+    "lastName": "Garcia",
+    "dateOfBirth": "2023-01-05",
+    "guardianName": "Carlos Garcia",
+    "guardianPhone": "555-0109",
+    "insuranceId": "INS-2023-009",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2023-01-05",
+        "lotNumber": "LOT158",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2023-03-07",
+        "lotNumber": "LOT159",
+        "administeredBy": "Dr. Chen"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT010",
+    "firstName": "Elijah",
+    "lastName": "Wilson",
+    "dateOfBirth": "2016-12-25",
+    "guardianName": "Anna Wilson",
+    "guardianPhone": "555-0110",
+    "insuranceId": "INS-2016-010",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2016-12-25",
+        "lotNumber": "LOT160",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2017-02-27",
+        "lotNumber": "LOT161",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 3,
+        "dateAdministered": "2017-06-29",
+        "lotNumber": "LOT162",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 1,
+        "dateAdministered": "2017-02-27",
+        "lotNumber": "LOT163",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 2,
+        "dateAdministered": "2017-04-29",
+        "lotNumber": "LOT164",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 3,
+        "dateAdministered": "2017-06-30",
+        "lotNumber": "LOT165",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 4,
+        "dateAdministered": "2017-12-28",
+        "lotNumber": "LOT166",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT011",
+    "firstName": "Mia",
+    "lastName": "Anderson",
+    "dateOfBirth": "2022-08-30",
+    "guardianName": "Peter Anderson",
+    "guardianPhone": "555-0111",
+    "insuranceId": "INS-2022-011",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2022-08-30",
+        "lotNumber": "LOT167",
+        "administeredBy": "Dr. Chen"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT012",
+    "firstName": "Lucas",
+    "lastName": "Taylor",
+    "dateOfBirth": "2010-04-17",
+    "guardianName": "Susan Taylor",
+    "guardianPhone": "555-0112",
+    "insuranceId": "INS-2010-012",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2010-04-17",
+        "lotNumber": "LOT168",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2010-06-19",
+        "lotNumber": "LOT169",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 3,
+        "dateAdministered": "2010-10-21",
+        "lotNumber": "LOT170",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2011-04-23",
+        "lotNumber": "LOT171",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "Varicella",
+        "doseNumber": 1,
+        "dateAdministered": "2011-04-23",
+        "lotNumber": "LOT172",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT013",
+    "firstName": "Charlotte",
+    "lastName": "Jackson",
+    "dateOfBirth": "2024-02-14",
+    "guardianName": "Kevin Jackson",
+    "guardianPhone": "555-0113",
+    "insuranceId": "INS-2024-013",
+    "vaccinationHistory": []
+  },
+  {
+    "patientId": "PAT014",
+    "firstName": "Aiden",
+    "lastName": "White",
+    "dateOfBirth": "2013-10-31",
+    "guardianName": "Diana White",
+    "guardianPhone": "555-0114",
+    "insuranceId": "INS-2013-014",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2013-10-31",
+        "lotNumber": "LOT173",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2014-01-02",
+        "lotNumber": "LOT174",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 3,
+        "dateAdministered": "2014-05-04",
+        "lotNumber": "LOT175",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2014-10-06",
+        "lotNumber": "LOT176",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT015",
+    "firstName": "Harper",
+    "lastName": "Harris",
+    "dateOfBirth": "2006-06-20",
+    "guardianName": "Bob Harris",
+    "guardianPhone": "555-0115",
+    "insuranceId": "INS-2006-015",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2006-06-20",
+        "lotNumber": "LOT177",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2006-08-22",
+        "lotNumber": "LOT178",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 3,
+        "dateAdministered": "2006-12-24",
+        "lotNumber": "LOT179",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2007-06-26",
+        "lotNumber": "LOT180",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 2,
+        "dateAdministered": "2011-06-30",
+        "lotNumber": "LOT181",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "Varicella",
+        "doseNumber": 1,
+        "dateAdministered": "2007-06-26",
+        "lotNumber": "LOT182",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "Varicella",
+        "doseNumber": 2,
+        "dateAdministered": "2011-06-30",
+        "lotNumber": "LOT183",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT016",
+    "firstName": "Evelyn",
+    "lastName": "Clark",
+    "dateOfBirth": "2021-09-11",
+    "guardianName": "Rachel Clark",
+    "guardianPhone": "555-0116",
+    "insuranceId": "INS-2021-016",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2021-09-11",
+        "lotNumber": "LOT184",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2021-11-13",
+        "lotNumber": "LOT185",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 1,
+        "dateAdministered": "2021-11-13",
+        "lotNumber": "LOT186",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT017",
+    "firstName": "Alexander",
+    "lastName": "Lewis",
+    "dateOfBirth": "2017-03-27",
+    "guardianName": "Nancy Lewis",
+    "guardianPhone": "555-0117",
+    "insuranceId": "INS-2017-017",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2017-03-27",
+        "lotNumber": "LOT187",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2017-05-29",
+        "lotNumber": "LOT188",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 3,
+        "dateAdministered": "2017-09-30",
+        "lotNumber": "LOT189",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2018-03-31",
+        "lotNumber": "LOT190",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "Varicella",
+        "doseNumber": 1,
+        "dateAdministered": "2018-03-31",
+        "lotNumber": "LOT191",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 1,
+        "dateAdministered": "2017-05-29",
+        "lotNumber": "LOT192",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 2,
+        "dateAdministered": "2017-07-31",
+        "lotNumber": "LOT193",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 3,
+        "dateAdministered": "2017-10-01",
+        "lotNumber": "LOT194",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 4,
+        "dateAdministered": "2018-04-01",
+        "lotNumber": "LOT195",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT018",
+    "firstName": "Amelia",
+    "lastName": "Robinson",
+    "dateOfBirth": "2020-06-05",
+    "guardianName": "Frank Robinson",
+    "guardianPhone": "555-0118",
+    "insuranceId": "INS-2020-018",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2020-06-05",
+        "lotNumber": "LOT196",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2020-08-07",
+        "lotNumber": "LOT197",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2021-06-09",
+        "lotNumber": "LOT198",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 1,
+        "dateAdministered": "2020-08-07",
+        "lotNumber": "LOT199",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 2,
+        "dateAdministered": "2020-10-09",
+        "lotNumber": "LOT200",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 3,
+        "dateAdministered": "2020-12-10",
+        "lotNumber": "LOT201",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT019",
+    "firstName": "Benjamin",
+    "lastName": "Walker",
+    "dateOfBirth": "2012-11-08",
+    "guardianName": "Grace Walker",
+    "guardianPhone": "555-0119",
+    "insuranceId": "INS-2012-019",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2012-11-08",
+        "lotNumber": "LOT202",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2013-01-10",
+        "lotNumber": "LOT203",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 3,
+        "dateAdministered": "2013-05-12",
+        "lotNumber": "LOT204",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2013-11-14",
+        "lotNumber": "LOT205",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "Varicella",
+        "doseNumber": 1,
+        "dateAdministered": "2013-11-14",
+        "lotNumber": "LOT206",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  },
+  {
+    "patientId": "PAT020",
+    "firstName": "Sofia",
+    "lastName": "Hall",
+    "dateOfBirth": "2005-08-15",
+    "guardianName": "Helen Hall",
+    "guardianPhone": "555-0120",
+    "insuranceId": "INS-2005-020",
+    "vaccinationHistory": [
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 1,
+        "dateAdministered": "2005-08-15",
+        "lotNumber": "LOT207",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 2,
+        "dateAdministered": "2005-10-17",
+        "lotNumber": "LOT208",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "HepB",
+        "doseNumber": 3,
+        "dateAdministered": "2006-02-18",
+        "lotNumber": "LOT209",
+        "administeredBy": "Dr. Chen"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 1,
+        "dateAdministered": "2006-08-20",
+        "lotNumber": "LOT210",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "MMR",
+        "doseNumber": 2,
+        "dateAdministered": "2010-09-24",
+        "lotNumber": "LOT211",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "Varicella",
+        "doseNumber": 1,
+        "dateAdministered": "2006-08-20",
+        "lotNumber": "LOT212",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "Varicella",
+        "doseNumber": 2,
+        "dateAdministered": "2010-09-24",
+        "lotNumber": "LOT213",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 1,
+        "dateAdministered": "2005-10-17",
+        "lotNumber": "LOT214",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 2,
+        "dateAdministered": "2005-12-19",
+        "lotNumber": "LOT215",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 3,
+        "dateAdministered": "2006-02-19",
+        "lotNumber": "LOT216",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 4,
+        "dateAdministered": "2006-08-21",
+        "lotNumber": "LOT217",
+        "administeredBy": "Dr. Patel"
+      },
+      {
+        "vaccineName": "DTaP",
+        "doseNumber": 5,
+        "dateAdministered": "2010-09-25",
+        "lotNumber": "LOT218",
+        "administeredBy": "Dr. Patel"
+      }
+    ]
+  }
+]

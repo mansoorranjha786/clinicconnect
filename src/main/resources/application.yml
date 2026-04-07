@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: clinicconnect
+
+cdc:
+  api:
+    base-url: https://data.cdc.gov
+    schedule-endpoint: /resource/jpbb-ndx9.json
+    timeout-seconds: 10
+    max-retry-attempts: 1
+    retry-delay-seconds: 1
+    use-fallback-only: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    com.starlight.clinicconnect: INFO
+    org.springframework.web.reactive: WARN

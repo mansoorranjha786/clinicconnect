@@ -1,0 +1,118 @@
+[
+  {
+    "vaccineName": "HepB",
+    "vaccineAbbreviation": "HepB",
+    "description": "Hepatitis B vaccine protects against hepatitis B virus infection",
+    "catchUpNote": "Catch-up vaccination recommended for all unvaccinated children through age 18",
+    "doseSchedule": [
+      {
+        "doseNumber": 1,
+        "minimumAgeInDays": 0,
+        "recommendedAgeInDays": 0,
+        "maximumAgeInDays": 0,
+        "minimumIntervalFromPreviousDoseInDays": 0
+      },
+      {
+        "doseNumber": 2,
+        "minimumAgeInDays": 28,
+        "recommendedAgeInDays": 60,
+        "maximumAgeInDays": 0,
+        "minimumIntervalFromPreviousDoseInDays": 28
+      },
+      {
+        "doseNumber": 3,
+        "minimumAgeInDays": 168,
+        "recommendedAgeInDays": 180,
+        "maximumAgeInDays": 0,
+        "minimumIntervalFromPreviousDoseInDays": 56
+      }
+    ]
+  },
+  {
+    "vaccineName": "DTaP",
+    "vaccineAbbreviation": "DTaP",
+    "description": "Diphtheria, Tetanus, and acellular Pertussis vaccine",
+    "catchUpNote": "Children aged 7 through 10 years who are not fully immunized should receive catch-up vaccination",
+    "doseSchedule": [
+      {
+        "doseNumber": 1,
+        "minimumAgeInDays": 42,
+        "recommendedAgeInDays": 60,
+        "maximumAgeInDays": 0,
+        "minimumIntervalFromPreviousDoseInDays": 0
+      },
+      {
+        "doseNumber": 2,
+        "minimumAgeInDays": 70,
+        "recommendedAgeInDays": 120,
+        "maximumAgeInDays": 0,
+        "minimumIntervalFromPreviousDoseInDays": 28
+      },
+      {
+        "doseNumber": 3,
+        "minimumAgeInDays": 98,
+        "recommendedAgeInDays": 180,
+        "maximumAgeInDays": 0,
+        "minimumIntervalFromPreviousDoseInDays": 28
+      },
+      {
+        "doseNumber": 4,
+        "minimumAgeInDays": 365,
+        "recommendedAgeInDays": 456,
+        "maximumAgeInDays": 0,
+        "minimumIntervalFromPreviousDoseInDays": 182
+      },
+      {
+        "doseNumber": 5,
+        "minimumAgeInDays": 1460,
+        "recommendedAgeInDays": 1825,
+        "maximumAgeInDays": 2555,
+        "minimumIntervalFromPreviousDoseInDays": 182
+      }
+    ]
+  },
+  {
+    "vaccineName": "MMR",
+    "vaccineAbbreviation": "MMR",
+    "description": "Measles, Mumps, and Rubella vaccine",
+    "catchUpNote": "Two doses separated by at least 28 days are required for adequate immunity",
+    "doseSchedule": [
+      {
+        "doseNumber": 1,
+        "minimumAgeInDays": 365,
+        "recommendedAgeInDays": 365,
+        "maximumAgeInDays": 0,
+        "minimumIntervalFromPreviousDoseInDays": 0
+      },
+      {
+        "doseNumber": 2,
+        "minimumAgeInDays": 1460,
+        "recommendedAgeInDays": 1825,
+        "maximumAgeInDays": 0,
+        "minimumIntervalFromPreviousDoseInDays": 28
+      }
+    ]
+  },
+  {
+    "vaccineName": "Varicella",
+    "vaccineAbbreviation": "VAR",
+    "description": "Varicella (Chickenpox) vaccine",
+    "catchUpNote": "Two doses are required. Children aged 7 through 12 years should receive two doses separated by at least 3 months",
+    "doseSchedule": [
+      {
+        "doseNumber": 1,
+        "minimumAgeInDays": 365,
+        "recommendedAgeInDays": 365,
+        "maximumAgeInDays": 0,
+        "minimumIntervalFromPreviousDoseInDays": 0
+      },
+      {
+        "doseNumber": 2,
+        "minimumAgeInDays": 1460,
+        "recommendedAgeInDays": 1825,
+        "maximumAgeInDays": 0,
+        "minimumIntervalFromPreviousDoseInDays": 84
+      }
+    ]
+  }
+]
