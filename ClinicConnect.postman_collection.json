@@ -77,7 +77,7 @@
               "variable": [
                 {
                   "key": "patientId",
-                  "value": "PAT-001",
+                  "value": "PAT001",
                   "description": "The unique ID of the patient."
                 }
               ]
